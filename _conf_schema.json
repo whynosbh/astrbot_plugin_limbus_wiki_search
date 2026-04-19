@@ -1,0 +1,40 @@
+{
+  "维基基础URL": {
+    "key": "wiki_base_url",
+    "type": "string",
+    "default": "https://limbuscompany.huijiwiki.com",
+    "desc": "维基百科的基础URL地址"
+  },
+  "搜索结果数量": {
+    "key": "search_limit",
+    "type": "int",
+    "default": 10,
+    "min": 1,
+    "max": 50,
+    "desc": "每次搜索返回的结果数量"
+  },
+  "截图超时时间": {
+    "key": "screenshot_timeout",
+    "type": "int",
+    "default": 60000,
+    "min": 1000,
+    "max": 300000,
+    "desc": "页面截图的超时时间(毫秒)"
+  },
+  "页面加载等待时间": {
+    "key": "page_wait_ms",
+    "type": "int",
+    "default": 3000,
+    "min": 500,
+    "max": 10000,
+    "desc": "页面加载后等待的时间(毫秒)"
+  },
+  "会话超时时间": {
+    "key": "session_timeout",
+    "type": "int",
+    "default": 30,
+    "min": 5,
+    "max": 300,
+    "desc": "搜索会话的超时时间(秒)"
+  }
+}
